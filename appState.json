@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4adbc796-6da7-4a1b-88d0-48e8b315af9b": {
+        "id": "4adbc796-6da7-4a1b-88d0-48e8b315af9b",
+        "parent": null,
+        "name": "hiru0608_addtriggercommit",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c5862935-d7f8-4836-8f96-ca7893b59538"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru0608_addtriggercommit"
+      },
+      "c5862935-d7f8-4836-8f96-ca7893b59538": {
+        "id": "c5862935-d7f8-4836-8f96-ca7893b59538",
+        "parent": "4adbc796-6da7-4a1b-88d0-48e8b315af9b",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru0608_addtriggercommit/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "4adbc796-6da7-4a1b-88d0-48e8b315af9b",
+    "openFiles": [
+      "c5862935-d7f8-4836-8f96-ca7893b59538"
+    ],
+    "currentFileId": "c5862935-d7f8-4836-8f96-ca7893b59538",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru0608_addtriggercommit",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565083928102
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru0608_addtriggercommit",
+      "url": "https://github.com/HirudineeADRT/hiru0608_addtriggercommit",
+      "branches": []
+    }
+  }
+}
